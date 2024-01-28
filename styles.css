@@ -311,8 +311,8 @@ footer {
 
 .spritelinks {
     margin-top: 2vh;
-    height: 20vh;
-    width: 15vw;
+    height: 100px;
+    width: 200px;
     display: flex;
     float: right;
 }
