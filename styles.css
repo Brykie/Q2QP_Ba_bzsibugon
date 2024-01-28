@@ -1,3 +1,4 @@
+/* General Code */
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
 * {
@@ -12,6 +13,7 @@
 body {
     background-image: url(media/pattern_waves-2_1_4_0-0_130_2__dddddd_eeeeee_bbbbbb_29a9ab_cccccc.png);
 }
+/* Navbar */
 nav {
     z-index: 99;
     height: 15vh;
@@ -61,7 +63,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* Section/Page1 Code */
 video {
     float: left;
     width: 100vw;
@@ -109,7 +111,7 @@ video {
     border-radius: 3vh;
     opacity: 0.85;
 }
-
+/* Section/Page2 Code */
 .page2 {
     z-index: -1;
     height: 95vh;
@@ -187,7 +189,7 @@ video {
     height: 100%;
     object-fit: cover; 
 }
-
+/* Section/Page3 Code */
 .page3 { /* same code as page2 but eh */
     z-index: -1;
     height: 95vh;
@@ -251,7 +253,7 @@ video {
     text-align: center;
 }
   
-
+/* Footer */
 footer {
     height: 40vh;
     width: 100vw;
@@ -315,7 +317,7 @@ footer {
     float: right;
 }
 
-#fb { /* thanks spritecow */
+#fb { /* thanks spritecow even though it looks trash*/
     background: url('media/spritesheet.png') no-repeat -439px -146px;
 	width: 66px;
 	height: 66px;
@@ -333,6 +335,7 @@ footer {
 	height: 66px;
 }
 
+/* Section/Page4 Code*/
 .page4 { 
     z-index: 0;
     height: 95vh;
@@ -379,7 +382,7 @@ footer {
     z-index: 99;
     height: 40vh;
 }
-
+/* Section/Page5 Code*/
 .page5 {
     z-index: -1;
     height: 95vh;
@@ -439,7 +442,7 @@ footer {
     color: black;
     overflow-y: hidden;
 }
-
+/* Section/Page6 Code */
 .page6 { 
     z-index: -1;
     height: 95vh;
